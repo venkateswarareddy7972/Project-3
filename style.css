@@ -2,38 +2,36 @@
     margin: 0;
     padding: 0;
 }
-#item1{
+#item1:hover{
     filter: blur(2px);
-    height: 150;
-    width: 250;
 }
-#item2{
+#item2:hover{
     filter: brightness(2);
     height: 150;
     width: 250;
 }
-#item3{
+#item3:hover{
     filter: grayscale(2);
 }
-#item4{
+#item4:hover{
     filter: invert(2);
 }
-#item5{
+#item5:hover{
     filter: sepia(9);
 }
-#item6{
+#item6:hover{
     filter: contrast(5);
 }
-#item7{
+#item7:hover{
     filter: opacity(0.5);
 }
-#item8{
+#item8:hover{
     filter: drop-shadow(5px 2px 3px red);
 }
-#item9{
+#item9:hover{
     filter: drop-shadow(-5px -2px 3px rgb(61, 8, 219));
 }
-#item10{
+#item10:hover{
     filter: hue-rotate(-90deg);
 }
 .container{
