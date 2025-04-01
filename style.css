@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#item1{
+    filter: blur(2px);
+    height: 150;
+    width: 250;
+}
+#item2{
+    filter: brightness(2);
+    height: 150;
+    width: 250;
+}
+#item3{
+    filter: grayscale(2);
+}
+#item4{
+    filter: invert(2);
+}
+#item5{
+    filter: sepia(9);
+}
+#item6{
+    filter: contrast(5);
+}
+#item7{
+    filter: opacity(0.5);
+}
+#item8{
+    filter: drop-shadow(5px 2px 3px red);
+}
+#item9{
+    filter: drop-shadow(-5px -2px 3px rgb(61, 8, 219));
+}
+#item10{
+    filter: hue-rotate(-90deg);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:20px;
+
+}
+
